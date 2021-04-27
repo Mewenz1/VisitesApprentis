@@ -1,4 +1,4 @@
-package com.example.visitesapprentis;
+package Métier;
 
 import java.util.Date;
 

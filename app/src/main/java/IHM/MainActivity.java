@@ -1,8 +1,10 @@
-package com.example.visitesapprentis;
+package IHM;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.visitesapprentis.R;
 
 public class MainActivity extends AppCompatActivity {
 

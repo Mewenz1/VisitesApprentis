@@ -1,4 +1,4 @@
-package com.example.visitesapprentis;
+package Métier;
 
 public class Special extends Visite{
 
