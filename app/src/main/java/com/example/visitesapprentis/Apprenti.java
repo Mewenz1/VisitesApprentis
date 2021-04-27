@@ -66,8 +66,8 @@ public class Apprenti {
         return classeApp;
     }
 
-    public void setLaClasseApp(String laClasse) {
-        this.classeApp = laClasse;
+    public void setLaClasseApp(String laClasseApp) {
+        this.classeApp = laClasseApp;
     }
 
     public String getMailApp() {
