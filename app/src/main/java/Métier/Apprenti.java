@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Apprenti {
 
-    private int idApprenti;
+    private int idApp;
     private String nomApp;
     private String prenomApp;
     private String adresseApp;
@@ -16,7 +16,7 @@ public class Apprenti {
     private String mailApp;
 
     public Apprenti(int id, String nomApp, String prenomApp, String adresseApp, String villeApp, String cpApp, String telApp, Date dateDebutApp, String classeApp, String mailApp) {
-        this.idApprenti = id;
+        this.idApp = id;
         this.nomApp = nomApp;
         this.prenomApp = prenomApp;
         this.adresseApp = adresseApp;
@@ -28,9 +28,9 @@ public class Apprenti {
         this.mailApp = mailApp;
     }
 
-    public int getIdApprenti() { return idApprenti; }
+    public int getIdApp() { return idApp; }
 
-    public void setIdApprenti(int idApprenti) { this.idApprenti = idApprenti; }
+    public void setIdApp(int idApprenti) { this.idApp = idApprenti; }
 
     public String getNomApp() {
         return nomApp;

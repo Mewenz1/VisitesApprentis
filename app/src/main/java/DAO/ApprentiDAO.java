@@ -37,7 +37,7 @@ public class ApprentiDAO extends DAO<Apprenti> {
 
     public void insert(Apprenti app){
         ContentValues valeur = new ContentValues();
-        valeur.put(COL_ID_APPRENTI, app.getIdApprenti());
+        valeur.put(COL_ID_APPRENTI, app.getIdApp());
         valeur.put(COL_NOMAPPRENTI, app.getNomApp());
         valeur.put(COL_PRENOMAPPRENTI, app.getPrenomApp());
         valeur.put(COL_ADRESSEAPPRENTI, app.getAdresseApp());
