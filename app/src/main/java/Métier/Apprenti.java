@@ -4,23 +4,33 @@ import java.util.Date;
 
 public class Apprenti {
 
+    private int idApp;
     private String nomApp;
     private String prenomApp;
     private String adresseApp;
+    private String villeApp;
+    private String cpApp;
     private String telApp;
     private Date dateDebutApp;
     private String classeApp;
     private String mailApp;
 
-    public Apprenti(String nom, String prenom, String adresse, String tel, Date dateDebut, String uneclasse, String mail){
-        this.nomApp = nom;
-        this.prenomApp = prenom;
-        this.adresseApp = adresse;
-        this.telApp = tel;
-        this.dateDebutApp = dateDebut;
-        this.classeApp = uneclasse;
-        this.mailApp = mail;
+    public Apprenti(int id, String nomApp, String prenomApp, String adresseApp, String villeApp, String cpApp, String telApp, Date dateDebutApp, String classeApp, String mailApp) {
+        this.idApp = id;
+        this.nomApp = nomApp;
+        this.prenomApp = prenomApp;
+        this.adresseApp = adresseApp;
+        this.villeApp = villeApp;
+        this.cpApp = cpApp;
+        this.telApp = telApp;
+        this.dateDebutApp = dateDebutApp;
+        this.classeApp = classeApp;
+        this.mailApp = mailApp;
     }
+
+    public int getIdApp() { return idApp; }
+
+    public void setIdApp(int idApprenti) { this.idApp = idApprenti; }
 
     public String getNomApp() {
         return nomApp;
@@ -45,6 +55,16 @@ public class Apprenti {
     public void setAdresseApp(String adresseApp) {
         this.adresseApp = adresseApp;
     }
+
+    public String getVilleApp() { return villeApp; }
+
+    public void setVilleApp(String villeApp) { this.villeApp = villeApp; }
+
+    public String getCpApp() { return cpApp; }
+
+    public void setCpApp(String cpApp) { this.cpApp = cpApp; }
+
+    public void setClasseApp(String classeApp) { this.classeApp = classeApp; }
 
     public String getTelApp() {
         return telApp;
